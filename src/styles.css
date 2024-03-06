@@ -21,6 +21,13 @@
 
   --ion-text-color: white;
   --ion-text-color-rgb: 255, 255, 255;
+
+  --ion-card-background: linear-gradient(
+    139deg,
+    #831affab 0%,
+    transparent 100%
+  );
+  --ion-item-background: transparent;
 }
 
 .conteudo {
