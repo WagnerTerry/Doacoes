@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+@import '~@ionic/angular/css/ionic.bundle.css';
+
+.titulo {
+  text-align: center;
+}
+
+:root {
+  --ion-font-family: 'Varela Round', sans-serif;
+}
