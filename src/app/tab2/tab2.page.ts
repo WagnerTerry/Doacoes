@@ -29,4 +29,10 @@ export class Tab2Page {
   abrirUrl(url: string) {
     window.open(url, '_blank').focus();
   }
+
+  whats() {
+    this.abrirUrl(
+      'https://api.whatsapp.com/send?phone=555194904309&text=Ol%C3%A1%20vim%20atraves%20do%20seu%20App%20Gostaria%20de%20receber%20doacoes'
+    );
+  }
 }
